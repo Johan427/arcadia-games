@@ -1,0 +1,132 @@
+
+body {
+    background-color: rgb(7, 9, 23); /* Color de fondo */
+    color: black;
+  }
+  p{
+    text-align: justify;
+   
+  }
+nav{ /* Menú */
+    background-color: rgb(0, 0, 0);
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-left: calc(-50vw + 50%);
+    width: 100%;
+    padding-bottom: 20px; /* Añadido para equilibrio */
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    
+    
+    
+}
+
+
+
+h1{ /* Texto tipo 1 */
+    color: rgb(61, 127, 132);
+    font-size: 45px;
+    font-family: arial;
+  
+}
+h2{
+    /* Texto tipo 2 */
+    color: rgb(42, 89, 93);
+    font-size: 35px;
+    font-family: arial;
+  }
+hr {
+    color: 2px solid rgb(70, 135, 143);
+    width: 100%;
+    height: 0px;
+  }
+
+ul li{
+display: inline-block;
+padding: 0px 20px;
+font-family: arial;
+
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(147, 211, 204);
+}
+
+div{
+    color: white;
+    font-family: arial;
+    margin: 0px 20px 0px 40px; /* Márgenes superior (0px), derecho (20px), inferior (0px) e izquierdo (40px) */
+}
+h4{ /* Texto tipo 4 */
+    color: rgb(155, 250, 218);
+  }
+
+footer{ /* pie de pagína */
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: arial;
+   /* Estilos para el pie de página */
+    background-color: #000000; /* Cambia el color de fondo aquí */
+    color: #187d76; /* Cambia el color del texto para que contraste con el fondo */
+    padding: 5px; /* Espacio interno alrededor del contenido */
+    text-align: center; /* Centra el texto */
+    position: relative;
+    margin-left: calc(-50vw + 50%);
+    
+    bottom: 0;
+    width: 100%;
+     padding-top: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+
+}
+.button-container { 
+    text-align: center;
+   
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
+.btn-primary {
+    background-color: #40454a;
+}
+
+.btn-primary:hover {
+    background-color: #273c54;
+}
+
+.btn-secondary {
+    background-color: #3495a1;
+}
+.btn-secondary:hover {
+    background-color: #417a7e;
+}
+.btn-ter {
+    background-color: #ddd05a;
+}
+
+.btn-ter:hover {
+    background-color: #b2b435;
+}
+
+.btn-cuar {
+    background-color: #2cad66;
+}
+.btn-cuar:hover {
+    background-color: #196847;
+}
